@@ -1,0 +1,10 @@
+__pycache__
+
+_3rdparty/Binary_Segmentation_Evaluation_Tool
+_3rdparty/examples
+
+logs
+predictions
+results
+ckpts
+dataset
