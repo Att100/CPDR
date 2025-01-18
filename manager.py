@@ -64,6 +64,9 @@ class Config:
 
 class Logger:
     def __init__(self, path, name) -> None:
+        if not os.path.exists(path):
+            os.makedirs(path)
+        
         self.train_log = open(os.path.join(path, "{}_train.txt".format(name)), 'w')
         self.test_log = open(os.path.join(path, "{}_test.txt".format(name)), 'w')
 

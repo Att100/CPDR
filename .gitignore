@@ -6,5 +6,12 @@ _3rdparty/examples
 logs
 predictions
 results
-ckpts
-dataset
+
+ckpts/*.pdparams
+ckpts/pretrained/*.pdparams
+
+dataset/DUTS
+dataset/DUT-OMRON
+dataset/ECSSD
+dataset/HKU-IS
+dataset/PASCAL-S
